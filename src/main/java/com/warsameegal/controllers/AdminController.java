@@ -15,5 +15,4 @@ public class AdminController {
         return "Admin level access";
     }
 
-    // Ensure there are no invalid characters in method names or request mappings
 }

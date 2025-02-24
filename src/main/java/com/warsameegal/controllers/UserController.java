@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController // Make it a component of spring
-@RequestMapping("/user") // map to slash admin
+@RequestMapping("/user") // map to user
 @CrossOrigin("*") // make request across different origins
 public class UserController {
 
